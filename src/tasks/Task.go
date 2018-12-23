@@ -9,5 +9,5 @@ type TaskToDo struct {
 	Right  int
 	Result float32
 
-	Operation *operators.IOperator
+	Operation operators.IOperator
 }
