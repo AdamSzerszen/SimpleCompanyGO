@@ -1,0 +1,7 @@
+{
+  "mode_types": [
+    "talkative, silent"
+  ],
+  "CompanyMode": "talkative",
+  "TaskServerSize": 10
+}
