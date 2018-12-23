@@ -18,8 +18,8 @@ func (numberGenerator NumberGenerator) GetRandomNumber() int {
 	return rand.Int() % numberGenerator.numbersRange
 }
 
-func CreateNumberGenerator(numbersRande int) *INumberGenerator {
-	generator := new(NumberGenerator{numbersRange: numbersRande})
+func CreateNumberGenerator(numbersRande int) NumberGenerator {
+	generator := NumberGenerator{numbersRange: numbersRande}
 
 	return generator
 }
